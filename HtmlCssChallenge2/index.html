@@ -5,28 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css"/>
+    <!--Workbench font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+    <!--Dosis font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Workbench&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <section>
-    <header>
-        <nav>
-            <logo>King</logo>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Resume</li>
-                <li>Services</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>My Blog</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-    </header>
+    
+    <!-- how to overflow-bottom: hidden https://stackoverflow.com/questions/73861987/how-to-hide-overflow-on-the-bottom-of-a-container-and-still-allow-the-image-to-e-->
     <div class="carousel">
-        <p>Hi, I'm King Jones-Frazier. A...web person?</p>
-        <img src='kingjofrProfile.png' />
+        <header>
+            
+            <div class="logo">King</div>
+            <nav> 
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Resume</li>
+                    <li>Services</li>
+                    <li>Skills</li>
+                    <li>Projects</li>
+                    <li>My Blog</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+            
+        </header>
+        <div class="mainimg">
+        <p>Hi, I'm King Jones-Frazier. A web developer.</p>
+        <img src='kingjofrProfile.png' class="carousel1"/>
+        <img src='kingjofrProfile.png' class="carousel1reflection"/>
+        
+        <img src="profileFoto-removebg-preview.png" class="carousel2" />
+        <img src="profileFoto-removebg-preview.png" class="carousel2reflection" />
+        </div>
+        
+        
     </div>
+    </section>
+    <section>
+
     </section>
 </body>
 </html>
